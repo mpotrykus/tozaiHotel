@@ -1,0 +1,418 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Lato', sans-serif;
+}
+
+body {
+	background-color: #444;
+}
+
+#imgHeader {
+	height: 600px;
+	background-image: url('images/room.jpg');
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#imgCall {
+	background-color:rgba(68, 68, 68, 0.5);
+	margin: auto;
+	width: 600px;
+	color: #fff;
+	text-align: center;
+	position: relative;
+	top: 180px;
+	padding: 15px 5px 55px 5px;
+}
+
+#imgCall p {
+	font-size: 300%;
+}
+
+#imgCall a {
+	padding: 20px 30px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+	background-color: #20B2AA;
+	color: #fff;
+	transition: 1s;
+}
+
+#imgCall a:hover {
+	background-color: #666;
+}
+
+#bodyText {
+	color: #666;
+	padding: 40px;
+	background-color: #fff;
+	background-image: url('images/textBkgd.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+#bodyTextP {
+	font-size: .8em;
+	margin: 0 auto;
+	width: 860px;
+	padding: 30px;
+	height: 250px;
+}
+
+.bodySquare, .bodySquare1 {
+	float: left;
+	width: 206px;
+	padding: 0 40px;
+}
+
+.bodySquare1 {
+	border-left:1px solid grey;
+	height:200px;
+}
+
+a {
+	text-decoration: none;
+}
+
+#catch a {
+	color: #444;
+	font-size: 120%;
+	transition: 1s;
+}
+
+#catch a:hover {
+	color: #fff;
+	background-color: #20B2AA;
+	padding: 5px 95px 8px 15px;
+}
+
+header {
+	background-color: #444;
+	width: 100%;
+}
+
+nav {
+	height: 100px;
+	color: white;
+	text-transform: uppercase;
+	text-align: right;
+	width: 960px;
+	margin: 0 auto;
+}
+
+#logo div {
+	float: left;
+	margin: 15px 0;
+	padding: 10px 0;
+	border-left: 1px solid #fff;
+	padding-left: 20px;
+}
+
+nav div p {
+	text-align: center;
+	font-size: 70%;
+	line-height: 1.75;
+	letter-spacing: 3px;
+}
+
+nav img {
+	float: left;
+	padding: 25px 20px 0 0;
+}
+
+nav ul li {
+	display: inline-block;
+	list-style: none;
+	padding: 40px 0px;
+	width: auto;
+}
+
+nav ul li a {
+	padding: 40px 15px;
+	color: white;
+	transition: 1s;
+}
+
+nav ul li a:hover {
+	background-color: #666;
+}
+
+nav ul li a:active {
+	background-color: #222;
+}
+
+#spanBlue {
+	background-color: #20B2AA;
+}
+
+h1,h2,h3 {
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	font-weight: bolder;
+}
+
+h2 {
+	font-size: 180%;
+}
+
+#spanTwo {
+	font-family: 'Lora', serif;
+	font-weight: normal;
+	font-style: italic;
+	text-transform: none;
+	letter-spacing: 2px;
+	font-size: 90%;
+}
+
+#read {
+	height: 350px;
+}
+
+#readSpan {
+	position: absolute;
+	color: white;
+	z-index: 5;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	width: 860px;
+	padding: 30px;
+}
+
+#readLeft, #readRight {
+	float: left;
+	width: 50%;
+}
+
+#readLeft {
+	background-color: #222;
+	height: 100%;
+	background-image: url('images/city.jpg');
+	background-repeat: no-repeat;
+	background-position: 0% center;
+	background-size: cover;
+	background-attachment: fixed;
+	filter: grayscale(100%) brightness(100%) contrast(50%);
+}
+
+#readRight {
+	background-color: #666;
+	height: 100%;
+	background-image: url('images/man.jpg');
+	background-repeat: no-repeat;
+	background-position: 0% center;
+	background-size: cover;
+	background-attachment: fixed;
+	filter: grayscale(100%) brightness(15%) contrast(50%);
+}
+
+.bodySquareRead {
+	float: left;
+	width: 40%;
+	padding: 40px 40px;
+}
+
+.bodySquareRead a {
+	color: #c5c5c5;
+}
+
+footer {
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: .8em;
+	width: 100%;
+}
+
+#footNav {
+	width: 100%;
+	background-color: #3b3b3b;
+	margin: auto 0;
+}
+
+footer ul {
+	height: 50px;
+	width: 960px;
+	margin: auto;
+}
+
+footer ul li {
+	float: left;
+	list-style: none;
+	padding: 15px 60px;
+}
+
+footer ul li a {
+	color: #fff;
+	transition: 1s;
+}
+
+footer ul li a:hover{
+	color: #20B2AA;
+}
+
+footer p {
+	padding: 20px;
+}
+
+#copyright {
+	font-family: 'Lora', serif;
+	font-weight: normal;
+	font-style: italic;
+	text-transform: none;
+	letter-spacing: 1px;
+	color: #888;
+}
+
+@media only screen and (max-width: 960px) {
+	nav {
+		width: 100vw;
+		font-size: 1.7vw;
+	}
+	footer {
+		font-size: 1.7vw;
+	}
+	nav ul li a {
+		padding: 40px 1vw;
+	}
+	footer ul li {
+		padding: 15px 5vw;
+	}
+	.bodySquare, .bodySquare1 {
+        float: none;
+		border-left: 0px;
+		width: 82vw;
+		margin: 20px;
+		padding: 0;
+		padding-bottom: 20px;
+		border-bottom: 1px solid #444;
+    }
+	#bodyTextP {
+		padding: 0;
+	}
+	#bodyTextP {
+		height: 575px;
+	}
+	#imgHeader {
+		height: 400px;
+	}
+	#imgCall {
+		top: 50px;
+		width: 75vw;
+	}
+	#bodyTextP {
+		width: 100vw;
+		padding: 0;
+	}
+	#read {
+		height: 550px;
+	}
+	#readRight, #readLeft, #bodySquareRead {
+        float: none;
+		width: 100vw;
+    }
+	#readLeft, #readRight {
+		height: 275px;
+	}
+	.bodySquareRead {
+		width: 82vw;
+	}
+}
+
+@media only screen and (max-width: 560px) {
+    .bodySquare, .bodySquare1 {
+        float: none;
+		border-left: 0px;
+		width: 75vw;
+		margin: 20px;
+		padding: 0;
+		padding-bottom: 20px;
+		border-bottom: 1px solid #444;
+    }
+	#bodyTextP {
+		padding: 0;
+	}
+	#bodyTextP {
+		height: 575px;
+	}
+	nav {
+		width: 100vw;
+		height: auto;
+		font-size: 100%;
+	}
+	#logo1 {
+		width: 100vw;
+	}
+	#logo{
+		text-align: center;
+		height: 100px;
+		float: none;
+		margin: auto;
+		width: 310px;
+	}
+	nav ul li {
+		display: block;
+		padding: 20px 0;
+		width: 100vw;
+		text-align: center;
+		border-top: 1px solid #999;
+	}
+	nav ul li a {
+		padding: 20px;
+		width: 100vw;
+		transition: 0s;
+	}
+	nav ul li a:hover {
+		background-color: transparent;
+		color: #20B2AA;
+	}
+	#spanBlue {
+		background-color: transparent;
+	}
+	#imgCall {
+		top: 50px;
+		width: 75vw;
+	}
+	#bodyTextP {
+		width: 100vw;
+		padding: 0;
+	}
+	#read {
+		height: 630px;
+	}
+	#readLeft, #readRight {
+		height: 325px;
+	}
+	.bodySquareRead {
+		width: 75vw;
+	}
+	footer {
+		position: absolute;
+		bottom: -500;
+		height: auto;
+		font-size: 100%;
+	}
+	footer ul li {
+		display: block;
+		padding: 20px 0;
+		width: 100vw;
+		text-align: center;
+		border-top: 1px solid #999;
+	}
+	footer ul li a {
+		padding: 20px 0;
+		width: 100vw;
+	}
+	footer ul {
+		width: 100vw;
+	}
+	#footNav {
+		height: 300px;
+	}
+}
